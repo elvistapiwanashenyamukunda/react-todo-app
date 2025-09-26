@@ -1,0 +1,25 @@
+{
+  "name": "react-todo-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",              // Start development server
+    "build": "tsc && vite build", // Type-check + production build
+    "preview": "vite preview",  // Preview production build locally
+    "lint": "eslint . --ext .ts,.tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-react": "^7.33.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  }
+}
